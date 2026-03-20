@@ -1,102 +1,102 @@
-# Node.js Dependencies
-node_modules/
-*/node_modules/
-**/node_modules/
-package-lock.json
-yarn.lock
-.pnp
-.pnp.js
+# # Node.js Dependencies
+# node_modules/
+# */node_modules/
+# **/node_modules/
+# package-lock.json
+# yarn.lock
+# .pnp
+# .pnp.js
 
-# Python Dependencies & Build
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-Pipfile.lock
-.pytest_cache/
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# # Python Dependencies & Build
+# __pycache__/
+# *.py[cod]
+# *$py.class
+# *.so
+# .Python
+# env/
+# venv/
+# ENV/
+# build/
+# develop-eggs/
+# dist/
+# downloads/
+# eggs/
+# .eggs/
+# lib/
+# lib64/
+# parts/
+# sdist/
+# var/
+# wheels/
+# *.egg-info/
+# .installed.cfg
+# *.egg
+# Pipfile.lock
+# .pytest_cache/
+# .mypy_cache/
+# .dmypy.json
+# dmypy.json
 
-# Java/Maven/Gradle Build
-target/
-build/
-.gradle/
-bin/
-out/
-*.class
-*.jar
-*.war
-*.ear
-.classpath
-.project
-.settings/
+# # Java/Maven/Gradle Build
+# target/
+# build/
+# .gradle/
+# bin/
+# out/
+# *.class
+# *.jar
+# *.war
+# *.ear
+# .classpath
+# .project
+# .settings/
 
-# Go Build
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-vendor/
-go/bin/
+# # Go Build
+# *.exe
+# *.exe~
+# *.dll
+# *.so
+# *.dylib
+# *.test
+# vendor/
+# go/bin/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# lerna-debug.log*
 
-# Debug
-.DS_Store
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# # Debug
+# .DS_Store
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
-# Source maps and minified files
-*.min.js
-*.map
+# # Source maps and minified files
+# *.min.js
+# *.map
 
-# Coverage directory
-coverage/
-htmlcov/
-.coverage
-.coverage.*
+# # Coverage directory
+# coverage/
+# htmlcov/
+# .coverage
+# .coverage.*
 
-# Cache directories
-.npm/
-.eslintcache
-.cache/
-.parcel-cache/
-.ruff_cache/
+# # Cache directories
+# .npm/
+# .eslintcache
+# .cache/
+# .parcel-cache/
+# .ruff_cache/
 
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-*.iml
+# # IDE specific files
+# .idea/
+# .vscode/
+# *.swp
+# *.swo
+# *.iml
