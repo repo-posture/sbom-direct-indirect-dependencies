@@ -1,0 +1,6 @@
+setup.py
+src/sbom_test_setup.egg-info/PKG-INFO
+src/sbom_test_setup.egg-info/SOURCES.txt
+src/sbom_test_setup.egg-info/dependency_links.txt
+src/sbom_test_setup.egg-info/requires.txt
+src/sbom_test_setup.egg-info/top_level.txt

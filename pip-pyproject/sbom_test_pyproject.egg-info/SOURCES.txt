@@ -1,0 +1,6 @@
+pyproject.toml
+sbom_test_pyproject.egg-info/PKG-INFO
+sbom_test_pyproject.egg-info/SOURCES.txt
+sbom_test_pyproject.egg-info/dependency_links.txt
+sbom_test_pyproject.egg-info/requires.txt
+sbom_test_pyproject.egg-info/top_level.txt

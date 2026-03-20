@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: sbom-test-pyproject
+Version: 1.0.0
+Summary: Python component for SBOM testing using pyproject.toml
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: dask==2023.5.0
+Requires-Dist: polars==0.18.3
+Requires-Dist: pyarrow==12.0.0
+Requires-Dist: openpyxl==3.1.2
+Requires-Dist: xlrd==2.0.1
+Requires-Dist: xlsxwriter==3.1.2
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: psycopg2-binary==2.9.6
+Requires-Dist: pymysql==1.0.3
+Requires-Dist: pymongo==4.3.3
+Requires-Dist: redis==4.5.5
+Requires-Dist: elasticsearch==8.8.0
+Requires-Dist: cassandra-driver==3.28.0
+Requires-Dist: neo4j==5.9.0
+Requires-Dist: influxdb-client==1.36.1
+Requires-Dist: alembic==1.11.1
+Requires-Dist: asyncpg==0.27.0
+Requires-Dist: motor==3.1.2
+Requires-Dist: peewee==3.16.2
+Requires-Dist: tortoise-orm==0.19.3
