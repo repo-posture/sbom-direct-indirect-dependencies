@@ -1,41 +1,38 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '2.7.11'
+    id 'org.springframework.boot' version '3.1.0'
     id 'io.spring.dependency-management' version '1.1.0'
 }
 
 group = 'com.example'
 version = '1.0-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '17'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.11'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.11'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
-    implementation 'org.apache.commons:commons-lang3:3.12.0'
-    implementation 'org.hibernate:hibernate-core:5.6.15.Final'
-    implementation 'com.google.guava:guava:31.1-jre'
-    implementation 'com.google.code.gson:gson:2.10.1'
-    implementation 'org.apache.httpcomponents:httpclient:4.5.14'
-    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
-    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
-    implementation 'org.apache.kafka:kafka-clients:3.4.0'
-    implementation 'org.slf4j:slf4j-api:2.0.7'
-    implementation 'ch.qos.logback:logback-classic:1.4.8'
-    implementation 'com.zaxxer:HikariCP:5.0.1'
-    implementation 'org.projectlombok:lombok:1.18.28'
-    annotationProcessor 'org.projectlombok:lombok:1.18.28'
-    
-    runtimeOnly 'org.postgresql:postgresql:42.6.0'
-    runtimeOnly 'mysql:mysql-connector-java:8.0.33'
-    runtimeOnly 'com.h2database:h2:2.1.214'
-    
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
-    testImplementation 'org.mockito:mockito-core:5.3.1'
+    implementation 'io.micronaut:micronaut-http-client:3.9.3'
+    implementation 'io.quarkus:quarkus-core:3.1.0.Final'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.okio:okio:3.3.0'
+    implementation 'io.netty:netty-all:4.1.93.Final'
+    implementation 'org.eclipse.jetty:jetty-server:11.0.15'
+    implementation 'io.vertx:vertx-core:4.4.3'
+    implementation 'org.jooq:jooq:3.18.4'
+    implementation 'com.querydsl:querydsl-core:5.0.0'
+    implementation 'org.mybatis:mybatis:3.5.13'
+    implementation 'org.flywaydb:flyway-core:9.19.4'
+    implementation 'org.liquibase:liquibase-core:4.22.0'
+    implementation 'com.github.ben-manes.caffeine:caffeine:3.1.6'
+    implementation 'org.ehcache:ehcache:3.10.8'
+    implementation 'io.micrometer:micrometer-core:1.11.1'
+    implementation 'io.opentelemetry:opentelemetry-api:1.27.0'
+    implementation 'com.auth0:java-jwt:4.4.0'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+    implementation 'com.nimbusds:nimbus-jose-jwt:9.31'
+    implementation 'org.mapstruct:mapstruct:1.5.5.Final'
 }
 
 test {
