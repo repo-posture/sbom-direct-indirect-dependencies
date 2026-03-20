@@ -1,0 +1,35 @@
+{
+  "name": "sbom-test-js",
+  "version": "1.0.0",
+  "description": "JavaScript component for SBOM testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["sbom", "test"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.2.2",
+    "jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "winston": "^3.9.0",
+    "socket.io": "^4.6.1",
+    "redis": "^4.6.6",
+    "pg": "^8.11.0",
+    "mysql2": "^3.3.3",
+    "aws-sdk": "^2.1393.0",
+    "graphql": "^16.6.0",
+    "typescript": "^5.0.4"
+  }
+}
