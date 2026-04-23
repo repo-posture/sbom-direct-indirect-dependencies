@@ -1,16 +1,19 @@
 load("@rules_python//python:defs.bzl", "py_binary", "py_library")
+load("@pip_deps//:requirements.bzl", "requirement")
 
 py_library(
     name = "sbom_lib",
     srcs = ["lib.py"],
     visibility = ["//visibility:public"],
     deps = [
-        "@com_google_protobuf//:protobuf_python",
+        requirement("requests"),
+        requirement("numpy"),
     ],
 )
 
 py_binary(
     name = "sbom_test",
     srcs = ["main.py"],
+    main = "main.py",
     deps = [":sbom_lib"],
 )
