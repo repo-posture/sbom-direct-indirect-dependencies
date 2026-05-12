@@ -115,5 +115,17 @@
             <artifactId>ant</artifactId>
             <version>1.10.12</version>
         </dependency>
+        <!-- EOL component: CLOSE_TO_EOL -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>5.0.1</version>
+        </dependency>
+        <!-- EOL component: DERIVED_EOL -->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+            <version>5.18.1</version>
+        </dependency>
     </dependencies>
 </project>
