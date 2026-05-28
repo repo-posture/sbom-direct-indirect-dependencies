@@ -19,7 +19,7 @@
     "vue": "^3.3.4",
     "svelte": "^3.59.1",
     "angular": "^1.8.3",
-    "ember-source": "^5.0.0",
+    "ember-source": "^7.0.0",
     "backbone": "^1.4.1",
     "underscore": "^1.13.6",
     "ramda": "^0.29.0",
