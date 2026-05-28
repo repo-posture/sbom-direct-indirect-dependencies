@@ -23,7 +23,7 @@
     "backbone": "^1.4.1",
     "underscore": "^1.13.6",
     "ramda": "^0.29.0",
-    "immutable": "^4.3.0",
+    "immutable": "^5.1.5",
     "rxjs": "^7.8.1",
     "bluebird": "^3.7.2",
     "async": "^3.2.4",
