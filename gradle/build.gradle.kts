@@ -38,7 +38,7 @@ dependencies {
 
     implementation("org.apache.commons:commons-lang3:3.12.0")
     implementation("org.apache.commons:commons-collections4:4.4")
-    implementation("org.apache.commons:commons-text:1.10.0")
+    implementation("org.apache.commons:commons-text:1.15.0")
     implementation("commons-io:commons-io:2.13.0")
     implementation("commons-codec:commons-codec:1.15")
     implementation("commons-validator:commons-validator:1.7")
