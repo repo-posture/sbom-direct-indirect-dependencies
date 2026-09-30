@@ -123,7 +123,7 @@ dependencies {
 
     implementation("com.opencsv:opencsv:5.7.1")
     implementation("org.apache.poi:poi:5.2.3")
-    implementation("org.apache.poi:poi-ooxml:5.2.3")
+    implementation("org.apache.poi:poi-ooxml:5.5.1")
     implementation("com.itextpdf:itext7-core:7.2.5")
 
     implementation("org.jsoup:jsoup:1.16.1")
