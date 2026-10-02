@@ -119,7 +119,7 @@ dependencies {
     implementation("com.github.ben-manes.caffeine:caffeine:3.1.6")
     implementation("org.redisson:redisson:3.21.3")
 
-    implementation("org.quartz-scheduler:quartz:2.3.2")
+    implementation("org.quartz-scheduler:quartz:2.5.2")
 
     implementation("com.opencsv:opencsv:5.7.1")
     implementation("org.apache.poi:poi:5.2.3")
