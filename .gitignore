@@ -1,7 +1,11 @@
-# # Node.js Dependencies
-node_modules/
-*/node_modules/
-**/node_modules/
+# # Node.js Dependencies — keep node_modules tracked for SBOM scanner coverage
+# node_modules/
+# */node_modules/
+# **/node_modules/
+# GitHub 100MB limit — exclude Next native binaries from tracking
+**/node_modules/@next/swc-*/**
+**/node_modules/@esbuild/*/bin/**
+**/node_modules/@swc/core-*/**
 # package-lock.json
 # yarn.lock
 # .pnp
