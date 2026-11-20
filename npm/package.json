@@ -32,6 +32,6 @@
     "playwright": "^1.34.3",
     "selenium-webdriver": "^4.10.0",
     "nock": "14.0.10",
-    "morgan": "1.10.0"
+    "morgan": "1.12.1"
   }
 }
